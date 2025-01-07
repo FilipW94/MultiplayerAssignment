@@ -27,9 +27,7 @@ class AMP_AssignmentCharacter : public ACharacter
 	USpringArmComponent* CameraBoom;
 
 	/** Follow camera */
-	// UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
-	// UCameraComponent* FollowCamera;
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	UCameraComponent* FollowCamera;
 	
 	/** MappingContext */
